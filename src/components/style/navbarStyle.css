@@ -1,0 +1,40 @@
+.logo {
+ margin: 2rem 0 0 1rem;
+}
+
+.navbarContainer {
+ background-color: rgba(132, 132, 148, 0) !important;
+}
+
+.navbarItem {
+ font-size: 1.2rem;
+ color: white !important;
+ margin-right: 1rem;
+}
+.navbarItem::after {
+ content: "";
+ display: block;
+ width: 0;
+ height: 3px;
+ background: rgb(255, 0, 0);
+ transition: width 0.3s;
+}
+.navbarItem:hover::after {
+ width: 100%;
+ transition: width 0.3s;
+}
+
+.searchBar {
+ width: 9rem !important;
+}
+.searchBar:hover {
+ width: 12rem !important;
+}
+
+.searchItem {
+ height: 1.5rem !important;
+}
+
+.searchButton {
+ height: 1.5rem !important;
+}
