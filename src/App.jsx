@@ -13,7 +13,7 @@ export const App = () => {
    <NavbarSection />
    <Switch>
     <Route exact path="/" component={HeaderSection} />
-    <Route path="/hakkimizda" component={Hakkimizda} />
+    <Route path="/https://blissful-noether-32f4a3.netlify.app/hakkimizda" component={Hakkimizda} />
     <Route path="/urunler" component={Urunler} />
     <Route path="/iletisim" component={Iletisim} />
     <Route component={NotFound} />

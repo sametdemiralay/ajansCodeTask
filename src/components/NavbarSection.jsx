@@ -35,7 +35,7 @@ export const NavbarSection = () => {
      <Nav.Link className="navbarItem" href="/">
       Anasayfa
      </Nav.Link>
-     <Nav.Link className="navbarItem" href="/hakkimizda">
+     <Nav.Link className="navbarItem" href="https://blissful-noether-32f4a3.netlify.app/hakkimizda">
       Hakkımızda
      </Nav.Link>
      <Nav.Link className="navbarItem" href="/urunler">
